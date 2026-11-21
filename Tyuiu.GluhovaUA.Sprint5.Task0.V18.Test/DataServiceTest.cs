@@ -13,7 +13,7 @@ namespace Tyuiu.GluhovaUA.Sprint5.Task0.V18.Test
             DataService ds = new DataService();
             int x = 3;
             ds.SaveToFileTextData(x);
-            string path = Path.Combine(Path.GetTempPath(),"OutPutFileTask0.txt");
+            string path = Path.Combine(Path.GetTempPath(), "OutPutFileTask0.txt");
             FileInfo fileinfo = new FileInfo(path);
             bool fileExists = fileinfo.Exists;
             bool wait = true;
@@ -21,4 +21,3 @@ namespace Tyuiu.GluhovaUA.Sprint5.Task0.V18.Test
         }
     }
 }
- 
