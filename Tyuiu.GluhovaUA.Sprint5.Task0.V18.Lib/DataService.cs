@@ -16,6 +16,7 @@ namespace Tyuiu.GluhovaUA.Sprint5.Task0.V18.Lib
             double y = Math.Round(x / (Math.Sqrt(Math.Pow(x, 2) + x)), 3);
             File.WriteAllText(path, y.ToString(CultureInfo.InvariantCulture));
             return path;
+
         }
     }
 }
