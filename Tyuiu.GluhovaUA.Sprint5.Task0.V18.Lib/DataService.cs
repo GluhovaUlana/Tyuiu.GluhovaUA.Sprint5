@@ -14,7 +14,7 @@ namespace Tyuiu.GluhovaUA.Sprint5.Task0.V18.Lib
         {
             string path = Path.Combine(Path.GetTempPath(), "OutPutFileTask0.txt");
             double y = Math.Round(x / (Math.Sqrt(Math.Pow(x, 2) + x)), 3);
-            File.WriteAllText(path, y.ToString(CultureInfo.InvariantCulture));
+            File.WriteAllText(path, y.ToString());
             return path;
 
         }
