@@ -19,7 +19,7 @@ namespace Tyuiu.GluhovaUA.Sprint5.Task2.V8
             Console.Title = "Спринт #5 | Выполнила: Глухова У. А. | ПИНб-26-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #5                                                               *");
-            Console.WriteLine("* Тема: Класс File. Запись данных в текстовый файл                        *");
+            Console.WriteLine("* Тема: Класс File. Запись структурированных данных в текстовый файл      *");
             Console.WriteLine("* Задание #2                                                              *");
             Console.WriteLine("* Вариант #8                                                              *");
             Console.WriteLine("* Выполнила: Глухова У. А. | ПИНб-26-1                                    *");
