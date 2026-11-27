@@ -25,7 +25,7 @@ namespace Tyuiu.GluhovaUA.Sprint5.Task7.V7
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
             string path = Path.Combine("C:\\DataSprint5", "InPutDataFileTask7V7.txt");
-            string ps= Path.Combine(Path.GetTempPath(), "OutPutFileTask7V7.txt");
+            string ps = Path.Combine(Path.GetTempPath(), "OutPutFileTask7V7.txt");
             Console.WriteLine("Данные находятся в файле: " + path);
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
@@ -36,4 +36,3 @@ namespace Tyuiu.GluhovaUA.Sprint5.Task7.V7
         }
     }
 }
-
