@@ -31,9 +31,9 @@ namespace Tyuiu.GluhovaUA.Sprint5.Task7.V7.Lib
                     {
                         char c = line[i];
                         bool r = (c >= 'А' && c <= 'Я') || c == 'Ё';
-                        bool e = (c >= 'A' && c <= 'Z');
+                        
 
-                        if (!r && !e)
+                        if (!r )
                         {
                             strLine += c;
                         }
